@@ -11,7 +11,7 @@ REV="1.7"
 MY_P=${P/_/-}
 DESCRIPTION="full-strength general purpose cryptography library (including SSL and TLS)"
 HOMEPAGE="http://www.openssl.org/"
-SRC_URI="mirror://openssl/source/${MY_P}.tar.gz
+SRC_URI="mirror://openssl/source/old/1.0.2/${P}.tar.gz
 	http://cvs.pld-linux.org/cgi-bin/cvsweb.cgi/packages/${PN}/${PN}-c_rehash.sh?rev=${REV} -> ${PN}-c_rehash.sh.${REV}"
 
 LICENSE="openssl"
